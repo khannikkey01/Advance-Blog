@@ -58,8 +58,8 @@ Welcome to my Django-based blog project! This project is designed to create and 
 
 1. Start the development server:
 
-```bash 
-python manage.py runserver
+    ```bash 
+    python manage.py runserver
 
 - Open your browser and navigate to http://127.0.0.1:8000/ to access the blog.
 - Register an account or log in to start creating and managing blog posts.
