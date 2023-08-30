@@ -29,31 +29,37 @@ Welcome to my Django-based blog project! This project is designed to create and 
 
 2. Create a virtual environment:
 
-    ```python -m venv venv```
+    ```bash
+    python -m venv venv
 
 
 3. Activate the virtual environment:
 
     - On Windows:
-    ```venv\Scripts\activate```
+    ```bash 
+    venv\\Scripts\\activate
     - on Linux/Mac
-    ```source venv/bin/activate```
+    ```bash
+    source venv/bin/activate
 
 
 4. Install project dependencies:
 
-    ```pip install -r requirements.txt```
+    ```bash 
+    pip install -r requirements.txt
 
 5. Apply database migrations:
 
-    ```python manage.py migrate```
+    ```bash 
+    python manage.py migrate
 
 
 ## Usage
 
 1. Start the development server:
 
-```python manage.py runserver```
+```bash 
+python manage.py runserver
 
 - Open your browser and navigate to http://127.0.0.1:8000/ to access the blog.
 - Register an account or log in to start creating and managing blog posts.
@@ -68,4 +74,5 @@ Welcome to my Django-based blog project! This project is designed to create and 
 
 ### Note: This README template is just an example. Update it with information specific to your project.
 
-```Replace placeholders like `your-username` and `your-django-blog` with the appropriate values. Additionally, you might want to provide more detailed information about certain aspects of your project if needed.```
+```bash
+Replace placeholders like `your-username` and `your-django-blog` with the appropriate values. Additionally, you might want to provide more detailed information about certain aspects of your project if needed.
