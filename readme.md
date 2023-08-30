@@ -35,10 +35,12 @@ Welcome to my Django-based blog project! This project is designed to create and 
 
 3. Activate the virtual environment:
 
-    - On Windows:
+- On Windows:
     ```bash 
     venv\\Scripts\\activate
-    - on Linux/Mac
+    
+    
+- on Linux/Mac
     ```bash
     source venv/bin/activate
 
